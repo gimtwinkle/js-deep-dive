@@ -19,6 +19,12 @@
 ### null 타입
 + 할당 되었으나 참조값이 없는 변수
 + 사용자가 변수를 초기화 할때 null을 사용
++ 함수가 유효한 값을 반환하지 못할때도 null 반환되기도 함
+  ex
+  ```javascript
+    var element = document.querySeletor(".my-class")
+    // HTML 문서에 my-class를 갖는 요소가 없으면 null을 반환
+  ```
 
 ### 심벌타입
 + 유일무이한 충돌할 위험이 없는 값으로 사용할때 
